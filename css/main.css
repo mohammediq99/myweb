@@ -1,0 +1,155 @@
+/*
+start main sections
+
+*/
+body {
+    height: 4000px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+.clearfix{
+    clear: both;
+}
+
+/*start header*/
+.header .slider {
+    height: 550px;
+}
+
+
+.header .navbar {
+    background-color: #252F31;
+    color :#FFF;
+    overflow: hidden;
+}
+.header .navbar h2{
+    float: left;
+}
+.header .navbar h2 span {
+    color: #2ecc71;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    overflow: hidden;
+}
+
+.header .navbar ul li {
+    float: left;padding: 10px;
+}
+
+/*end header*/
+
+/*start feutuerws*/
+.featuere {
+    overflow: hidden;padding-top: 30px;padding-bottom: 30px;
+}
+.featuere .feat {
+    width: 33.333333333%;
+    float: left;
+    height: 150px;
+}
+.featuere .feat h2{text-transform: uppercase;}
+
+
+
+/*end feutuerws*/
+/*start about me*/
+.about {background-color: #F2f2f2;overflow: hidden;}
+.about .img {float: left;width: 40%;}
+.about .img img {width: 100%;}
+.about .info {float: left;width: 60%;}
+.about .info .hobies {overflow: hidden;margin: 20px;}
+.about .info .hobies > div {
+    float: left;
+    width:50%;
+    min-height: 100px;
+}
+/*end about me*/
+/* start my skills*/
+.my-skills {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my-skills .skills,
+.my-skills .progres {
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+/* end my skills*/
+.resume {
+    background-color: beige;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* end resume /
+
+/* start my Education */
+.my-edu {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my-edu .main,
+.my-edu .exp {
+    width: 50%;
+    float: left;
+}
+/* end education */
+
+.test {
+    background-color: beige;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* end testminuals /
+
+/* start portiflo*/
+.portiflo {
+text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.portiflo .our_work {overflow: hidden;}
+.portiflo .our_work > div {float: left;width: 33%;margin-bottom: 10px;}
+.portiflo .our_wwork > div img {width: 99%;margin: 10px;}
+
+/* end portiflo*/
+
+/* start contact */
+.contact {
+    background-color: #252f35;
+}
+.contact  h2 {color:#ddd;}
+.contact  p {color:#aaa;}
+.concact .info,
+.contact .form {
+width: 50%;
+    float: left;
+}
+
+
+/* End contact */
+/* start footer*/
+.footer {
+    background-color:191E22;
+    color :#6A6E71;
+    text-align: center;
+}
